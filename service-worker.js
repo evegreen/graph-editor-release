@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/graph-editor/precache-manifest.53ef1252d9dc6078c0753938335482fa.js"
+  "/graph-editor-release/precache-manifest.22fe6d1eb213fdbe99916a93003b6ce1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/graph-editor/index.html", {
+workbox.routing.registerNavigationRoute("/graph-editor-release/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
